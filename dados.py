@@ -19,3 +19,4 @@ def carregar_acessos ():
 
     return X, y
 
+    
