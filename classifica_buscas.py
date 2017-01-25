@@ -59,9 +59,9 @@ taxa_acerto = 100.0 * total_acertos / total_elementos
 # acertos_um = len(y[y==1])
 # acertos_zero = len(y[y==0])
 
-acertos_base = max(Counter(y).values()) # O Counter faz o papel de separacao dos valores e com o max pegamos o maior valor
+acertos_base = max(Counter(y_teste).values()) # O Counter faz o papel de separacao dos valores e com o max pegamos o maior valor
 
-taxa_acerto_base = 100* acertos_base / len(y) #pegamos o maior valor para comparação e depois transformamos em %
+taxa_acerto_base = 100* acertos_base / len(y_teste) #pegamos o maior valor para comparação e depois transformamos em %
 
 print ("Taxa de acerto algoritmo: %.2f%%" % taxa_acerto)
 print("Taxa de acerto base: %.2f%%" % taxa_acerto_base)
